@@ -1,0 +1,69 @@
+
+
+// Color system
+// Theme color
+$theme-light-color-1: #6f42c1;
+$theme-light-color-2: #d63384;
+
+$theme-dark-color-1: #6f42c1;
+$theme-dark-color-2: #d63384;
+
+$primary: $theme-light-color-1;
+$secondary: $theme-light-color-2;
+
+//black, gray and white color variables
+
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+
+
+// scss-docs-start spacer-variables-maps
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25, //4
+  2: $spacer * .5,  //8
+  3: $spacer,       //16
+  4: $spacer * 1.5, //24
+  5: $spacer * 3,   //48
+  6: $spacer * 3.75,//60
+  7: $spacer * 5,   //80
+  8: $spacer * 7.5,//120
+
+  12: $spacer * .75, //12
+  20: $spacer * 1.25,//20
+  32: $spacer * 2,   //32
+  36: $spacer * 2.25,//36
+  40: $spacer * 2.5, //40
+);
+
+// Style p element.
+$paragraph-margin-bottom:   0;
+
+
+// scss-docs-start border-radius-variables
+$border-radius:               .375rem;
+$border-radius-sm:            .25rem;
+$border-radius-lg:            .5rem;
+$border-radius-xl:            1rem;
+$border-radius-xxl:           2rem;
+$border-radius-pill:          50rem;
+
+// scss-docs-start box-shadow-variables
+$box-shadow:                  0 .5rem 1rem rgba($black, .15);
+$box-shadow-sm:               0 .125rem .25rem rgba($black, .075);
+$box-shadow-lg:               0 1rem 3rem rgba($black, .175);
+$box-shadow-inset:            inset 0 1px 2px rgba($black, .075);
+
+// Import Bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
